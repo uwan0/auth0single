@@ -6,23 +6,16 @@
   <style>
   .base {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-  }
-  .frameclass {
-    display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
   }
   </style>
 </head>
 <body>
   <div class="base">
-    <div class="frameclass">
-      <iframe src="top.html" width="100%" height="60%"></iframe>
-      <iframe class="hidden" id="gated-content" src="https://storages4aicc.blob.core.windows.net/cc-files/select.html?sv=2019-12-12&ss=b&srt=sco&sp=rx&se=2021-10-13T12:58:27Z&st=2020-10-13T04:58:27Z&spr=https&sig=BWkmkGpxLkon9EYXLqDdi1xibK%2FAKs0X264aAfa2ByA%3D" width="100%" height="40%"></iframe>
-    </div>
+    <iframe src="top.html" width="100%" height="60%"></iframe>
+    <iframe class="hidden" id="gated-content" src="https://storages4aicc.blob.core.windows.net/cc-files/select.html?sv=2019-12-12&ss=b&srt=sco&sp=rx&se=2021-10-13T12:58:27Z&st=2020-10-13T04:58:27Z&spr=https&sig=BWkmkGpxLkon9EYXLqDdi1xibK%2FAKs0X264aAfa2ByA%3D" width="100%" height="40%"></iframe>
   </div>
     <script src="https://cdn.auth0.com/js/auth0-spa-js/1.2/auth0-spa-js.production.js"></script>
     <script src="script.js"></script>
